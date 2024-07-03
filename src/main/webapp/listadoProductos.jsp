@@ -51,6 +51,7 @@ if(ListadoProducto!=null){
 		
 	
 	    <td><a href="ControladorProducto?accion=Modificar&cod=<%=lis.getIdproductoscl3()%>">Actualizar</a></td>
+	     <td><a href="ControladorProducto?accion=Eliminar&cod=<%=lis.getIdproductoscl3()%>">Eliminar</a></td>
 		
 		</tr>
 		

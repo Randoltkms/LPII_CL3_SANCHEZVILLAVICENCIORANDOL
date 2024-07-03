@@ -33,7 +33,7 @@ public class LoginServle extends HttpServlet {
         if (usu != null) {
             HttpSession session = request.getSession();
             session.setAttribute("usuario", usu);
-            response.sendRedirect("ControladorProducto");
+            response.sendRedirect("RegistrarProducto.jsp");
         } else {
             request.setAttribute("errorMessage", "Usuario o contraseña incorrectos");
             request.getRequestDispatcher("/login.jsp").forward(request, response);

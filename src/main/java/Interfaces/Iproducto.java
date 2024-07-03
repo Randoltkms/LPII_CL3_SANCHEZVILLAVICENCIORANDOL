@@ -10,6 +10,8 @@ public interface Iproducto {
 	
 	public void RegistrarProducto(TblProductocl3 producto);
 	public void ActualizarProducto(TblProductocl3 producto);
+	public TblProductocl3 BuscarProducto(TblProductocl3 producto);
+	public void eliminarProducto(TblProductocl3 producto);
 	public List<TblProductocl3>ListadoProducto();
 
 }
